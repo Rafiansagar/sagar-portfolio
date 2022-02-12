@@ -1,0 +1,23 @@
+.intro-my {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 30%;
+    .avatar {
+        img {
+            max-width: 180px;
+            border-radius: 50%;
+            border: 5px solid #fefefe;
+            box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+        }
+    }
+    .inrto-text {
+        .name {
+            margin-bottom: 0;
+        }
+    }
+}

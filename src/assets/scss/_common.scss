@@ -1,0 +1,367 @@
+/*----------------------------------------*/
+/*  01. Theme default CSS
+/*----------------------------------------*/
+
+/* 1. Theme default css */
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800,900');
+
+html,
+body {
+    font-size: 15px;
+    color: $bodyColor;
+    font-family: $bodyFont;
+    vertical-align: baseline;
+    background-color: #ECF0F3;
+    line-height: 26px;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+p {
+    margin: 0 0 26px;
+    line-height: 1.8;
+} 
+
+button,
+input,
+a {
+	&:active,
+	&:focus {
+		outline: none;
+	}
+}
+a {
+    color: $primaryColor;
+    transition: $transition;
+    text-decoration: none !important;
+    outline: none !important;
+}
+a:active,
+a:hover {
+    text-decoration: none;
+    outline: 0 none;
+    color: $primaryColor;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $titleFont;
+    color: $titleColor;
+    margin: 0 0 26px;
+    line-height: 1.2;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+h3 {
+    font-size: 26px;
+    font-weight: 700;
+}
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+}
+h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+h6 {
+    font-size: 16px;
+    font-weight: 700;
+}
+.home-style2 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: $titleColor;
+    }
+}
+.uppercase{
+    text-transform: uppercase !important;
+}
+.capitalize{
+    text-transform: capitalize !important;
+}
+.extra-bold {
+    font-weight: 800 !important;
+}
+.z-index-1 {
+    z-index: 1;
+    position: relative;
+}
+.text-right {
+    text-align: right;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+/*--
+    - Text color
+-----------------------------------------*/
+.white-color {
+	color: $whiteColor !important;
+}
+.primary-color {
+	color: $primaryColor !important;
+}
+.secondary-color {
+	color: $secondaryColor !important;
+}
+
+/*--
+    - Background color
+-----------------------------------------*/
+.white-bg {
+	background: $whiteColor;
+}
+.primary-bg {
+	background: $primaryColor;
+}
+.secondary-bg {
+	background: $secondaryColor;
+}
+
+
+/*--
+    - Common Classes
+-----------------------------------------*/
+.fix {
+    overflow:hidden
+}
+.clear{
+    clear: both;
+}
+.f-left {
+	float: left
+}
+.f-right {
+	float: right
+}
+.no-border {
+	border: none;
+}
+.no-shadow {
+	box-shadow: none;
+	text-shadow: none;
+}
+.no-padding {
+	padding: 0;
+}
+.padding-0 {
+	padding: 0;
+}
+.no-margin {
+	margin: 0;
+}
+.margin-0 {
+	margin: 0;
+}
+.no-gutter {
+	margin-left: 0;
+    margin-right: 0;
+    > [class*="col-"] {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+.gutter-30 {
+	margin-left: -15px;
+    margin-right: -15px;
+    > [class*="col-"] {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.gutter-35 {
+	margin-left: -17.5px;
+    margin-right: -17.5px;
+    > [class*="col-"] {
+        padding-left: 17.5px;
+        padding-right: 17.5px;
+    }
+}
+.container-fluid {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+.relative {
+    position: relative;
+}
+.zIndex {
+    position: relative;
+    z-index: 9;
+}
+.zIndex1 {
+    position: relative;
+    z-index: 1;
+}
+.y-middle {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.y-bottom {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-align: flex-end;
+	-webkit-align-items: flex-end;
+	align-items: flex-end;
+}
+/* Slick Slider */
+.slick-list {
+    margin: -15px;
+}
+/* item */  
+.slick-slide{
+    padding: 15px;
+}
+.slick-dots {
+    text-align: center;
+    bottom: -50px;
+    li{
+        width: unset;
+        height: unset;
+        line-height: 0;
+        margin: 0 5px;
+        button {
+            width: 40px;
+            height: 10px;
+            display: inline-block;
+            margin: 0 6px;
+            padding: 3px 0;
+            border-radius: 30px;
+            background: $primaryColor;
+            opacity: 0.75;
+            &:before {
+                content: none;
+            }
+        }                
+        &:hover,
+        &.slick-active {
+            button {
+                background: $primaryColor;
+                opacity: 1;
+            }
+            
+        }
+    }
+}
+.readon {
+    outline: none;
+    padding: 12px 40px;
+    border: 1px solid $primaryColor;
+    border-radius: 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    color: $titleColor;
+    background: $primaryColor;
+    &:hover {
+        background: $primaryColor;
+        color: $whiteColor;
+    }
+}
+
+.owl-nav {
+	> div {
+		span {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 70px;
+			height: 70px;
+			display: inline-block;
+			background: #f6f2ed;
+			line-height: 65px;
+			text-align: center;
+			border-radius: 50%;
+			> img {
+				min-width: 10px;
+				max-width: 25px;
+			}
+		}
+	}
+	.owl-next {
+		> span {
+			right: -35px;
+		}
+	}
+	.owl-prev {
+		> span {
+			left: -35px;
+		}
+	}
+}
+
+.common-box {
+    padding: 35px 40px 40px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    &:after {
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        background-image: linear-gradient(145deg, #e2e8ec, #ffffff);
+        box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+        z-index: -1;
+    }
+}
+
+.box-title {
+    .title {
+        position: relative;
+        margin-bottom: 35px;
+        font-size: 30px;
+        text-align: left;
+        &:after {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 1px;
+            background: #0d1013;
+            bottom: -18px;
+            opacity: 0.3;
+            left: 0;
+        }
+    }
+}

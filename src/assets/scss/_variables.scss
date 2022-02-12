@@ -1,0 +1,26 @@
+
+// Font Family
+$bodyFont: 'Rubik', sans-serif;
+$titleFont: 'Nunito', sans-serif;
+
+// Colors
+$primaryColor:     #ff014f;
+$secondaryColor:   #ff0180;
+$titleColor:       #111111;
+$whiteColor:       #ffffff;
+$bodyColor:        #505050;
+$grayColor:        #f3f8f9;
+
+// Common
+$transition: all .3s ease;
+
+// Responsive Variables
+$laptop: 'only screen and (max-width: 1600px)';
+$xl : 'only screen and (max-width: 1366px)';
+$lg : 'only screen and (max-width: 1199px)';
+$only_lg : 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$lg_to_sm : 'only screen and  (max-width: 1199px) and (min-width: 768px)';
+$md:'only screen and (max-width: 991px)';
+$sm: 'only screen and (max-width: 767px)';
+$xs: 'only screen and (max-width: 575px)';
+$mobile: 'only screen and (max-width: 480px)';
