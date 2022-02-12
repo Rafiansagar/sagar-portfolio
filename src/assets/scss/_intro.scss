@@ -37,5 +37,7 @@
 @media #{$sm} {
     .intro-my {
         position: unset;
+        height: unset;
+        max-width: 100%;
     }
 }
