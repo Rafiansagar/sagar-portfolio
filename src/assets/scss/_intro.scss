@@ -33,3 +33,9 @@
         }
     }
 }
+
+@media #{$mobile} {
+    .intro-my {
+        position: unset;
+    }
+}
