@@ -19,6 +19,10 @@ function App() {
 									<h2 className="designation">Web Developer.</h2>
 									<p className="desc">I'm the Front-End Developer for #Company in Bangladesh, OR. I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.I'm the Front-End Developer for #Company in Bangladesh, OR. I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.</p>
 								</div>
+								<ul className="btn-part">
+									<li><a className="readon" href="#"><span>Download My CV</span></a></li>
+									<li><a className="readon" href="#"><span>Hire Me</span></a></li>
+								</ul>
 							</div>
 						</div>
 						<div className="col-md-6">

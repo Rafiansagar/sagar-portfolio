@@ -19,5 +19,17 @@
         .name {
             margin-bottom: 0;
         }
+        .designation {
+            color: #3c3e41;
+        }
+    }
+    .btn-part {
+        li {
+            display: inline;
+            margin-right: 25px;
+            &:last-child {
+                margin: 0;
+            }
+        }
     }
 }
