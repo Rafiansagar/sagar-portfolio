@@ -7,7 +7,7 @@ function App() {
 	return (
 		<React.Fragment>
 			<div className="main-content">
-<h1 className="primary-color">Still Working on it</h1>
+<h3 style="background: red; color: white; padding: 10px 15px;">Still Working on it</h3>
 				<div className="container">
 					<div className="row pt-100">
 						<div className="col-md-6">
