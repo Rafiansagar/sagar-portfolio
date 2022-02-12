@@ -5,7 +5,7 @@ const MySkills = (props) => {
 	return (
 		<div className={`my-skills ${boxClass}`}>
 			<BoxTitle
-				sectionClass="box-title"
+				sectionClass="box-title mb-40"
 				titleClass="title"
 				title="About My Skill"
 			/>
