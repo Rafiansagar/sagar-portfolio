@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import MyIntro from '../components/Intro';
 import AboutMe from '../components/About';
 import MySkills from '../components/Skills';
