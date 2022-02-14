@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import MyIntro from '../components/Intro';
 import AboutMe from '../components/About';
 import MySkills from '../components/Skills';
@@ -7,6 +7,7 @@ function App() {
 	return (
 		<React.Fragment>
 			<div className="main-content">
+<h3>Still Working on it</h3>
 				<div className="container">
 					<div className="row pt-100">
 						<div className="col-md-6">
