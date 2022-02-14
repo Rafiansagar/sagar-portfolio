@@ -6,8 +6,9 @@ import MySkills from '../components/Skills';
 function App() {
 	return (
 		<React.Fragment>
+			<div className="progress-note">That's not done yet. 😁</div>
+
 			<div className="main-content">
-<h3>Still Working on it</h3>
 				<div className="container">
 					<div className="row pt-100">
 						<div className="col-md-6">
