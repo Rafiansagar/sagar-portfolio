@@ -396,9 +396,10 @@ ul {
     flex-direction: column;
     font-size: 40px;
     color: $whiteColor;
+    text-shadow: 2px 2px 2px rgba(0,0,0, 0.5);
     font-weight: 700;
     justify-content: center;
-    background: rgba(0,0,0,0.85);
+    background: rgba(0,0,0,0.55);
     z-index: 9999;
     backdrop-filter: blur(3px);
 }
