@@ -11,7 +11,7 @@ const AboutMe = (props) => {
 			/>
 			<p className="desc">Hi I am a Front-End developer & I can build your website as you want. I can customize plugin & wordpress theme. And I have two years of experience in figma. Now I am able to design your portfolio.</p>
 
-			<div className="desc">I have three years of experience with HTML, CSS, JavaScript. And I can Design Your web application.</div>
+			<div className="desc">I have 4.5+ years of experience with HTML, CSS, JavaScript, React, WordPress, Joomla. And I can Design Your web application.</div>
 		</div>
 	);
 }

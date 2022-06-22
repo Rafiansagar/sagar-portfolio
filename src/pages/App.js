@@ -21,9 +21,6 @@ function App() {
 							<MySkills
 								boxClass="common-box mb-50"
 							/>
-							<MySkills
-								boxClass="common-box mb-50"
-							/>
 						</div>
 					</div>
 				</div>
