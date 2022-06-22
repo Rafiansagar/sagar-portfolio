@@ -2,6 +2,8 @@ import React from 'react';
 import MyIntro from '../components/Intro';
 import AboutMe from '../components/About';
 import MySkills from '../components/Skills';
+import MyServices from '../components/Services';
+import Myportfolio from '../components/Portfolio';
 
 function App() {
 	return (
@@ -19,6 +21,12 @@ function App() {
 								boxClass="common-box mb-50"
 							/>
 							<MySkills
+								boxClass="common-box mb-50"
+							/>
+							<MyServices
+								boxClass="common-box mb-50"
+							/>
+							<Myportfolio
 								boxClass="common-box mb-50"
 							/>
 						</div>

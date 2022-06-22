@@ -404,3 +404,36 @@ ul {
     z-index: 9999;
     backdrop-filter: blur(3px);
 }
+
+.list-style {
+    display: flex;
+    flex-wrap: wrap;
+    li {
+        position: relative;
+        font-size: 18px;
+        line-height: 28px;
+        text-transform: capitalize;
+        padding: 10px 0 10px 30px;
+        margin-right: 20px;
+        &:before {
+            position: absolute;
+            content: '';
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            width: 10px;
+            height: 10px;
+            background-color: #dbdee0;
+            border-radius: 50%;
+            transition: $transition;
+        }
+        &:hover {
+            &:before {
+                background-color: $primaryColor;
+            }
+        }
+        &:last-child {
+            margin: 0;
+        }
+    }
+}
