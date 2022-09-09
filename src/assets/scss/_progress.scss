@@ -1,0 +1,41 @@
+.skill-progress {
+    .p-items {
+        label {
+            font-weight: 600;
+            font-family: $titleFont;
+            margin-bottom: 5px;
+        }
+        .progress {
+            height: 18px;
+            .progress-bar {
+                text-align: right;
+                padding-right: 10px;
+            }
+        }
+        &.htmllang {
+            .progress-bar {
+                background-color: #f16529;
+            }
+        }
+        &.csslang {
+            .progress-bar {
+                background-color: #3771b5;
+            }
+        }
+        &.jslang {
+            .progress-bar {
+                background-color: #d6ba32;
+            }
+        }
+        &.phplang {
+            .progress-bar {
+                background-color: #4f5b93;
+            }
+        }
+        &.reactlang {
+            .progress-bar {
+                background-color: #4fa6db;
+            }
+        }
+    }
+}

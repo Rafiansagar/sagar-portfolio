@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Circle2 } from 'react-preloaders2';
 import MyIntro from '../components/Intro';
 import AboutMe from '../components/About';
+import Progress from '../components/Progress';
 import MySkills from '../components/Skills';
 import MyServices from '../components/Services';
 import Myportfolio from '../components/Portfolio';
@@ -28,6 +29,9 @@ function App() {
 						</div>
 						<div className="col-lg-6 xl-pl-30  md-pl-12 md-pr-12">
 							<AboutMe
+								boxClass="common-box mb-50"
+							/>
+							<Progress
 								boxClass="common-box mb-50"
 							/>
 							<MySkills

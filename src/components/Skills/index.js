@@ -1,3 +1,4 @@
+import ProgressBar from 'react-bootstrap/ProgressBar';
 import BoxTitle from "../Common/BoxTitle";
 
 import html from '../../img/skills/html.png';
@@ -17,7 +18,12 @@ import xd from '../../img/skills/xd.png';
 import figma from '../../img/skills/figma.png';
 
 const MySkills = (props) => {
-		const { boxClass } = props;
+	const { boxClass } = props;
+	const htmllang = 98;
+	const csslang = 95;
+	const jslang = 65;
+	const reactlang = 72;
+	const phplang = 78;
 	return (
 		<div className={`my-skills ${boxClass}`}>
 			<BoxTitle
