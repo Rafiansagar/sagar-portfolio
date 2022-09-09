@@ -26,3 +26,75 @@
         }
     }
 }
+
+@media #{$xl} {
+    .my-skills {
+        .experiencees {
+            li {
+                width: 70px;
+                height: 70px;
+                img {
+                    min-height: 50px;
+                    max-height: 50px;
+                }
+            }
+        }
+    }
+}
+@media #{$lg} {
+    .my-skills {
+        .experiencees {
+            li {
+                width: 56px;
+                height: 56px;
+                img {
+                    min-height: 40px;
+                    max-height: 40px;
+                }
+            }
+        }
+    }
+}
+@media #{$md} {
+    .my-skills {
+        .experiencees {
+            justify-content: space-evenly;
+            li {
+                width: 90px;
+                height: 90px;
+                img {
+                    min-height: 50px;
+                    max-height: 50px;
+                }
+            }
+        }
+    }
+}
+@media #{$sm} {
+    .my-skills {
+        .experiencees {
+            justify-content: space-between;
+            li {
+                width: 72px;
+                height: 72px;
+                img {
+                    min-height: 40px;
+                    max-height: 40px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 347px) {
+    .my-skills {
+        .experiencees {
+            margin: 0px;
+            li {
+                width: calc(50% - 10px);
+                margin-left: 0;
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

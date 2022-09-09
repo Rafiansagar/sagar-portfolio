@@ -33,11 +33,57 @@
         }
     }
 }
-
+@media #{$xl} {
+    .intro-my {
+        height: unset;
+        display: block;
+        max-width: 100%;
+        position: unset;
+        .inrto-text {
+            .name {
+                font-size: 50px;
+            }
+            .designation {
+                font-size: 38px;
+            }
+        }
+    }
+}
 @media #{$sm} {
     .intro-my {
         position: unset;
         height: unset;
         max-width: 100%;
+    }
+}
+@media #{$mobile} {
+    .intro-my {
+        height: unset;
+        display: block;
+        max-width: 100%;
+        position: unset;
+        .inrto-text {
+            .name {
+                font-size: 40px;
+            }
+            .designation {
+                font-size: 30px;
+            }
+        }
+    }
+}
+@media (max-width: 390px) {
+    .intro-my {
+        .btn-part {
+            li {
+                display: block;
+                margin-right: 0;
+                margin-bottom: 15px;
+                .readon {
+                    min-width: 205px;
+                    text-align: center;
+                }
+            }
+        }
     }
 }

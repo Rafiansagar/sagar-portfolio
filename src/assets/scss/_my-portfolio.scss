@@ -8,7 +8,7 @@
             background-repeat: no-repeat;
             transition: all 5s;
             margin-bottom: 15px;
-            border-radius: 30px;
+            border-radius: 10px;
             transition-delay: 0s;
             &:hover {
                 background-position: 0 100%;
@@ -29,7 +29,7 @@
         }
     }
     .swiper {
-        border-radius: 30px;
+        border-radius: 10px;
         .swiper-button-next,
         .swiper-button-prev {
             width: 40px;
@@ -47,6 +47,30 @@
             &:hover {
                 &:after {
                     color: $primaryColor;
+                }
+            }
+        }
+    }
+}
+
+@media #{$lg} {
+    .my-portfolio {
+        .portfolio-wrap {
+            .content-part {
+                .title {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+@media #{$sm} {
+    .my-portfolio {
+        .portfolio-wrap {
+            .content-part {
+                padding: 0;
+                .title {
+                    font-size: 18px;
                 }
             }
         }
