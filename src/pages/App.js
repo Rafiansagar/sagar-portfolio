@@ -16,8 +16,8 @@ function App() {
 		<React.Fragment>
 			<Circle2 color={'#ff014f'}/>
 			<div className={isActive ? "progress-note" : 'd-none'}>
-				<div>That's not done yet. 😁</div>
-				<a className="readon" onClick={handleToggle}>Want To Watch</a>
+				<div className="mb-20">That's not done yet. 😁</div>
+				<a className="readon noshadow" onClick={handleToggle}><span>It's Ok</span></a>
 			</div>
 
 			<div className="main-content">

@@ -292,6 +292,7 @@ ul {
     box-shadow: $shadow1;
     transition: $transition;
     background-image: unset;
+    cursor: pointer;
     span {
         z-index: 1;
         position: relative;
@@ -304,6 +305,12 @@ ul {
         right: 0;
         top: 0;
         bottom: 0;
+    }
+    &.noshadow {
+        box-shadow: none;
+        span {
+            text-shadow: none;
+        }
     }
     &:hover {
         color: $whiteColor;
@@ -450,9 +457,13 @@ ul {
         }
     }
 }
-.imMLk:before,
-.imMLk:after {
-	filter: unset !important;
+
+#preloader {
+    z-index: 9999;
+    .imMLk:before,
+    .imMLk:after {
+        filter: unset !important;
+    }
 }
 .progress-note {
     position: fixed;
@@ -466,10 +477,15 @@ ul {
     flex-direction: column;
     font-size: 40px;
     color: $whiteColor;
-    text-shadow: 2px 2px 2px rgba(0,0,0, 0.5);
+    text-shadow: 2px 2px 2px rgba(0,0,0, 0.8);
     line-height: 1.34;
     font-weight: 700;
     justify-content: center;
-    background: rgba(0,0,0,0.55);
-    z-index: 9999;
+    background: rgba(0,0,0,0.8);
+    backdrop-filter: blur(4px);
+    z-index: 9;
+    transition: $transition;
+    @media #{$mobile} {
+        font-size: 25px;
+    }
 }
