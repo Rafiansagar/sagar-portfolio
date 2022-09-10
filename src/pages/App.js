@@ -18,7 +18,7 @@ function App() {
 			<Circle2 color={'#ff014f'}/>
 			<div className={isActive ? "progress-note" : 'd-none'}>
 				<div className="mb-20">That's not done yet. 😁</div>
-				<a className="readon noshadow" onClick={handleToggle}><span>It's Ok</span></a>
+				<a className="readon noshadow" onClick={handleToggle}><span>Let's See</span></a>
 			</div>
 
 			<div className="main-content">
