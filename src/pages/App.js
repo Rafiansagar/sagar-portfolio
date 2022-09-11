@@ -6,6 +6,7 @@ import Progress from '../components/Progress';
 import MySkills from '../components/Skills';
 import MyServices from '../components/Services';
 import Myportfolio from '../components/Portfolio';
+// import Socialacc from "../components/Social";
 
 function App() {
 	const [isActive, setActive] = useState("false");
@@ -43,6 +44,9 @@ function App() {
 							<Myportfolio
 								boxClass="common-box mb-50 md-mb-0"
 							/>
+							{/* <Socialacc
+								boxClass="common-box mb-50 md-mb-0"
+							/> */}
 						</div>
 					</div>
 				</div>
