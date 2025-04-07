@@ -17,13 +17,13 @@ const AboutMe = (props) => {
 			  I specialize in <strong>WordPress theme</strong> and <strong>plugin customization</strong>, delivering scalable and maintainable solutions.
 			</p>
 			
-			<p className="desc">
+			<div className="desc">
 			  <i className="ri-terminal-window-line" style={{ marginRight: '8px', color: '#F59E0B' }}></i>
 			  I have hands-on experience with <strong>PHP, HTML, CSS, JavaScript, React</strong>, and popular CMS platforms like <strong>WordPress</strong> and <strong>Joomla</strong>.
 			  <br />
 			  <i className="ri-window-2-line" style={{ marginRight: '8px', color: '#10B981' }}></i>
 			  I can build and deploy fully functional <strong>web applications</strong> with clean, responsive UI and optimized performance.
-			</p>
+			</div>
 
 		</div>
 	);
