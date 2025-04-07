@@ -4,6 +4,7 @@ import App from './pages/App';
 import reportWebVitals from './reportWebVitals';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './assets/fonts/remixicon.css';
 import './assets/scss/main.scss';
 
 ReactDOM.render(
