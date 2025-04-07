@@ -9,7 +9,7 @@ function MyIntro () {
 			<div className="inrto-text mb-20">
 				<h1 className="name">Hi, I’m <span className="primary-color">Sagar</span></h1>
 				<h2 className="designation">Web Developer.</h2>
-				<p className="desc">I'm the Wp Developer for #RSTheme in Banglades for more then five years</p>
+				<p className="desc">Full-stack Lead Developer @ #RSTheme (Bangladesh) with 7+ years of hands-on experience in modern web technologies, performance optimization, and scalable architecture.</p>
 			</div>
 			<ul className="btn-part">
 				<li><a className="readon" href="#"><span>Download My CV</span></a></li>
