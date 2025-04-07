@@ -18,9 +18,11 @@ const MyServices = (props) => {
 				<li>PSD to Jomla</li>
 				<li>Responsive Design</li>
 				<li>Clean Codeing</li>
+				<li>Wp Theme Customizetion</li>
+				<li>Wp Plugin Customizetion</li>
+				<li>Optimized Performance</li>
 				<li>Bootstrap Template</li>
 				<li>Themeforest Template</li>
-				<li>4.5+ Year Experience</li>
 			</ul>
 		</div>
 	);
