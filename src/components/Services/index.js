@@ -15,7 +15,7 @@ const MyServices = (props) => {
 				<li>PSD to HTML</li>
 				<li>PSD to React</li>
 				<li>PSD to Wordpress</li>
-				<li>PSD to Jomla</li>
+				<li>PSD to Joomla</li>
 				<li>Responsive Design</li>
 				<li>Clean Codeing</li>
 				<li>Wp Theme Customizetion</li>
