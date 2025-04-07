@@ -8,7 +8,7 @@ function MyIntro () {
 			</div>
 			<div className="inrto-text mb-20">
 				<h1 className="name">Hi, I’m <span className="primary-color">Sagar</span></h1>
-				<h2 className="designation">Sr. Web Developer.</h2>
+				<h2 className="designation">Sr. Web Developer</h2>
 				<p className="desc">
 				  <i className="ri-flashlight-line primary-color"></i> Lead Developer at 
 				  <a href="https://rstheme.com/" target="_blank" rel="noopener noreferrer"><i className="ri-building-2-line" style={{ color: 'rgb(16, 185, 129)', margin: '0 0 0 6px' }}></i> RSTheme</a> | 7+ yrs WP + Full-Stack |
