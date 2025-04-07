@@ -16,13 +16,13 @@ const MyServices = (props) => {
 				<li>PSD to React</li>
 				<li>PSD to Wordpress</li>
 				<li>PSD to Joomla</li>
-				<li>Responsive Design</li>
-				<li>Clean Codeing</li>
+				<li>Responsive Layout</li>
+				<li>Clean Coding</li>
 				<li>Wp Theme Customizetion</li>
 				<li>Wp Plugin Customizetion</li>
 				<li>Optimized Performance</li>
 				<li>Bootstrap Template</li>
-				<li>Themeforest Template</li>
+				<li>Themeforest Product</li>
 			</ul>
 		</div>
 	);
